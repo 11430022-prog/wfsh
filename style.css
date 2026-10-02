@@ -1,0 +1,27 @@
+*{
+    margin: 10px 0 0 5px;
+    font-family: 'Huninn', sans-serif;
+}
+
+table{
+    width: 800px;
+    background: #f1f1f1;
+}
+
+th, td {
+    height: 20px;
+    text-align: start;
+    padding: 10px;
+}
+
+tr:first-child {
+    font-size: 16pt;
+}
+tr:not(:first-child){
+    color: #494949;
+    font-size: 12pt;
+}
+
+tr:nth-child(even){
+    background: #d8d8d8;
+}
